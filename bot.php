@@ -1,8 +1,8 @@
 <?php
 function enviarMensagemTelegram($mensagem) {
     // TOKEN DO BOT DO TELEGRAM E O SEU ID 
-    $telegramBotToken = 'TOKEN_AQUI_MANO_ASSITE_O_VIDEO_PARA_SABER_ONDE_PEGA'; 
-    $telegramChatID = 'ID_SEU_AQUI_MANO_OU_DO_GRUPO';
+    $telegramBotToken = '6424953199:AAG8IIjQSdaprvZWikXjbI_wqJGf6bcEkDM'; 
+    $telegramChatID = '6837597683';
 
     $telegramURL = "https://api.telegram.org/bot$telegramBotToken/sendMessage";
 
